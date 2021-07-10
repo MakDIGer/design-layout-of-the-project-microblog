@@ -81,6 +81,9 @@ nav.navbar .container .navbar-nav .nav-item .nav-link {
 .dropdown .dropdown-menu .dropdown-item {
   background-color: #999999;
   color: white;
+  font-size: 0.8571428571rem;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
 }
 .dropdown .dropdown-menu .dropdown-item:hover {
   background-color: #77CC6D;
