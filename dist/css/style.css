@@ -1,7 +1,93 @@
 /*!***************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/styles.sass ***!
   \***************************************************************************************************************/
+html {
+  font-size: 87.5%;
+}
+
 body {
-  background-color: #333333;
+  background-color: #ffffff;
+  color: #999999;
+  font-family: "Roboto", sans-serif;
+}
+
+.wrapper-grey {
+  background-color: #f9f9f9;
+  padding-left: 1.4285714286rem;
+  padding-right: 1.4285714286rem;
+}
+
+#main-header {
+  margin-top: 1.4285714286rem;
+}
+#main-header .container {
+  background-color: #f9f9f9;
+  height: 7.1428571429rem;
+  display: flex;
+  align-items: center;
+}
+#main-header .container .row .main-header__title-group .title-group__main-title {
+  font-size: 2.5714285714rem;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+#main-header .container .row .main-header__title-group .title-group__sub-title {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+nav.navbar {
+  padding: 0px;
+}
+nav.navbar .container {
+  background-color: #999999;
+  border-top: 1px solid #77CC6D;
+}
+nav.navbar .container .navbar-toggler:focus {
+  box-shadow: none;
+}
+nav.navbar .container .navbar-toggler .bi-list {
+  background-color: transparent;
   color: white;
+  font-size: 2.8571428571rem;
+}
+nav.navbar .container .navbar-nav .nav-item {
+  font-size: 0.8571428571rem;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  border-right: 1px solid #ffffff;
+  padding: 0px 20px;
+}
+nav.navbar .container .navbar-nav .nav-item:hover {
+  background-color: #77CC6D;
+}
+nav.navbar .container .navbar-nav .nav-item.active {
+  background-color: #77CC6D;
+}
+nav.navbar .container .navbar-nav .nav-item .nav-link {
+  color: white;
+}
+
+.dropdown .dropdown-menu {
+  background-color: #999999;
+  border: none;
+  border-radius: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+.dropdown .dropdown-menu:hover {
+  background-color: #77CC6D;
+}
+.dropdown .dropdown-menu .dropdown-item {
+  background-color: #999999;
+  color: white;
+}
+.dropdown .dropdown-menu .dropdown-item:hover {
+  background-color: #77CC6D;
+}
+
+@media (max-width: 991.98px) {
+  nav.navbar .container .navbar-nav .nav-item {
+    border-right: none;
+  }
 }
