@@ -1,6 +1,6 @@
-/*!***************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/styles.sass ***!
-  \***************************************************************************************************************/
+/*!*****************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./node_modules/sass-loader/dist/cjs.js!./src/sass/styles.sass ***!
+  \*****************************************************************************************************************************************************************************************************************/
 html {
   font-size: 87.5%;
 }
@@ -87,6 +87,34 @@ nav.navbar .container .navbar-nav .nav-item .nav-link {
 }
 .dropdown .dropdown-menu .dropdown-item:hover {
   background-color: #77CC6D;
+}
+
+#main-content #posts .post {
+  padding: 1.4285714286rem;
+  margin-top: 1.4285714286rem;
+  background-color: #ffffff;
+}
+#main-content #posts .post .title__post {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2857142857rem;
+  font-weight: 400;
+}
+#main-content #posts .post .subtitle__post {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.8571428571rem;
+  font-weight: 400;
+}
+#main-content #posts .post .text__post {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: justify;
+  margin-bottom: 0.7142857143rem;
+}
+#main-content #posts .post .tags__post {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 0.8571428571rem;
 }
 
 @media (max-width: 991.98px) {
