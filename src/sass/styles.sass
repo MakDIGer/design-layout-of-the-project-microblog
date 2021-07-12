@@ -13,6 +13,8 @@ body
   background-color: #f9f9f9
   padding-left: rem.convert(20px)
   padding-right: rem.convert(20px)
+.wrapper-margin
+  margin: rem.convert(20px) auto
 
 #main-header
   margin-top: rem.convert(20px)
@@ -42,13 +44,6 @@ nav.navbar
         background-color: transparent
         color: white
         font-size: rem.convert(40px)
-    //.navbar-toggler
-    //  border: none
-    //  &:focus
-    //    box-shadow: none
-    //  .navbar-toggler-icon
-    //    color: white
-    //    background-color: white
     .navbar-nav
       .nav-item
         font-size: rem.convert(12px)
@@ -90,10 +85,12 @@ nav.navbar
         font-family: vars.$roboto
         font-size: rem.convert(18px)
         font-weight: 400
+        line-height: rem.convert(24px)
       .subtitle__post
         font-family: vars.$roboto
         font-size: rem.convert(12px)
         font-weight: 400
+        line-height: rem.convert(16px)
       .text__post
         font-family: vars.$roboto
         font-size: rem.convert(14px)
@@ -106,9 +103,33 @@ nav.navbar
         font-size: rem.convert(12px)
 
 #category
+  background-color: #ffffff
+  margin: rem.convert(20px)
+  padding: rem.convert(20px)
   .title__category
+    font-family: vars.$roboto
+    font-size: rem.convert(18px)
+    font-weight: 300
   .items__category
+    list-style-type: none
+    margin-left: rem.convert(-20px)
     .item__category
+      margin-top: rem.convert(8px)
+      font-size: rem.convert(14px)
+      font-family: vars.$roboto
+      font-weight: 300
+
+#main-footer
+  .footer-line
+    background-color: #999999
+    color: white
+    margin: 20px auto
+    height: rem.convert(32px)
+    display: flex
+    align-items: center
+    font-family: vars.$roboto
+    font-weight: 300
+    font-size: rem.convert(12px)
 
 
 // X-Small devices (portrait phones, less than 576px)
