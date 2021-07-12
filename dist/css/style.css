@@ -17,6 +17,10 @@ body {
   padding-right: 1.4285714286rem;
 }
 
+.wrapper-margin {
+  margin: 1.4285714286rem auto;
+}
+
 #main-header {
   margin-top: 1.4285714286rem;
 }
@@ -98,11 +102,13 @@ nav.navbar .container .navbar-nav .nav-item .nav-link {
   font-family: "Roboto", sans-serif;
   font-size: 1.2857142857rem;
   font-weight: 400;
+  line-height: 1.7142857143rem;
 }
 #main-content #posts .post .subtitle__post {
   font-family: "Roboto", sans-serif;
   font-size: 0.8571428571rem;
   font-weight: 400;
+  line-height: 1.1428571429rem;
 }
 #main-content #posts .post .text__post {
   font-family: "Roboto", sans-serif;
@@ -114,6 +120,39 @@ nav.navbar .container .navbar-nav .nav-item .nav-link {
 #main-content #posts .post .tags__post {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
+  font-size: 0.8571428571rem;
+}
+
+#category {
+  background-color: #ffffff;
+  margin: 1.4285714286rem;
+  padding: 1.4285714286rem;
+}
+#category .title__category {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2857142857rem;
+  font-weight: 300;
+}
+#category .items__category {
+  list-style-type: none;
+  margin-left: -1.4285714286rem;
+}
+#category .items__category .item__category {
+  margin-top: 0.5714285714rem;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+#main-footer .footer-line {
+  background-color: #999999;
+  color: white;
+  margin: 20px auto;
+  height: 2.2857142857rem;
+  display: flex;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
   font-size: 0.8571428571rem;
 }
 
