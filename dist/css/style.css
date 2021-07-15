@@ -37,6 +37,14 @@ body {
   color: #666666;
 }
 
+.footer-link {
+  text-decoration: none;
+  color: white;
+}
+.footer-link:hover {
+  color: white;
+}
+
 #main-header {
   margin-top: 1.4285714286rem;
 }
