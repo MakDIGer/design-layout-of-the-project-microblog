@@ -21,6 +21,22 @@ body {
   margin: 1.4285714286rem auto;
 }
 
+.title-link {
+  text-decoration: none;
+  color: #999999;
+}
+.title-link:hover {
+  color: #999999;
+}
+
+.link {
+  text-decoration: none;
+  color: #999999;
+}
+.link:hover {
+  color: #666666;
+}
+
 #main-header {
   margin-top: 1.4285714286rem;
 }
