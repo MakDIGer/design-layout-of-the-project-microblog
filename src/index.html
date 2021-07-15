@@ -21,7 +21,7 @@
             <div class="container m-auto p-0">
                 <div class="row">
                     <hgroup class="main-header__title-group">
-                        <h1 class="title-group__main-title">{ Микроблог }</h1>
+                        <h1 class="title-group__main-title"><a class="title-link" href="#">{ Микроблог }</a></h1>
                         <h2 class="title-group__sub-title">{{ Просто еще один блог! }}</h2>
                     </hgroup>
                 </div>
@@ -66,8 +66,9 @@
                         <div class="container m-0 p-0">
                             <div class="row">
                                 <section class="post">
-                                    <h3 class="title__post">{ Заголовок второго поста и еще раз длинного заголовка поста }</h3>
-                                    <h4 class="subtitle__post">{ Категория: Категория 1, Дата публикации: 07.07.2021 }</h4>
+                                    <h3 class="title__post"><a href="#" class="link">{ Заголовок второго поста и еще раз длинного заголовка поста }</a></h3>
+                                    <h4 class="subtitle__post">{ Категория: <a href="#" class="link">Категория 1</a>, Дата публикации:
+                                        <a href="#" class="link"><time datetime="2021-07-07">07.07.2021</time></a> }</h4>
                                     <p class="text__post">
                                         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                                         ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -75,11 +76,13 @@
                                         voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                                         cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                                     </p>
-                                    <p class="tags__post">{ Теги: {{ HTML }}, {{ PHP }}, {{ Bootstrap }} }</p>
+                                    <p class="tags__post">{ Теги: {{ <a href="#" class="link">HTML</a> }}, {{ <a
+                                            href="#" class="link">PHP</a> }}, {{ <a href="#" class="link">Bootstrap</a> }} }</p>
                                 </section>
                                 <section class="post">
-                                    <h3 class="title__post">{ Заголовок первого поста }</h3>
-                                    <h4 class="subtitle__post">{ Категория: Категория 1, Дата публикации: 06.07.2021 }</h4>
+                                    <h3 class="title__post"><a href="#" class="link">{ Заголовок первого поста }</a></h3>
+                                    <h4 class="subtitle__post">{ Категория: <a href="#" class="link">Категория 1</a>, Дата публикации:
+                                        <a href="#" class="link"><time datetime="2021-07-06">06.07.2021</time></a> }</h4>
                                     <p class="text__post">
                                         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                                         ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -87,7 +90,8 @@
                                         voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                                         cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                                     </p>
-                                    <p class="tags__post">{ Теги: {{ Mac }}, {{ PHP }}, {{ Webpack }} }</p>
+                                    <p class="tags__post">{ Теги: {{ <a href="#" class="link">HTML</a> }}, {{ <a
+                                            href="#" class="link">PHP</a> }}, {{ <a href="#" class="link">Bootstrap</a> }} }</p>
                                 </section>
                             </div>
                         </div>
@@ -97,11 +101,11 @@
                     <section id="category">
                         <div class="title__category">Категории блога:</div>
                         <ul class="items__category">
-                           <li class="item__category">&gt; [ HTML ]</li>
-                           <li class="item__category">&gt; [ CSS ]</li>
-                           <li class="item__category">&gt; [ JS ]</li>
-                           <li class="item__category">&gt; [ PHP ]</li>
-                           <li class="item__category">&gt; [ MySQL ]</li>
+                           <li class="item__category">&gt; [ <a href="#" class="link">HTML</a> ]</li>
+                           <li class="item__category">&gt; [ <a href="#" class="link">CSS</a>CSS ]</li>
+                           <li class="item__category">&gt; [ <a href="#" class="link">JS</a> ]</li>
+                           <li class="item__category">&gt; [ <a href="#" class="link">PHP</a> ]</li>
+                           <li class="item__category">&gt; [ <a href="#" class="link">MySQL</a> ]</li>
                         </ul>
                     </section>
                 </div>
