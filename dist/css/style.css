@@ -150,6 +150,7 @@ nav.navbar .container .navbar-nav .nav-item .nav-link {
 #category {
   background-color: #ffffff;
   margin: 1.4285714286rem;
+  margin-right: 0rem;
   padding: 1.4285714286rem;
 }
 #category .title__category {
