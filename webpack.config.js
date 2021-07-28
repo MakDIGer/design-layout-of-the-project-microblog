@@ -56,7 +56,24 @@ module.exports = {
                 baseDir: ['dist']
             }
         }),
-        new HtmlWebpackPlugin({template: './src/index.html'}),
+        new HtmlWebpackPlugin(
+            {
+                template: './src/index.html',
+                filename: 'index.html'
+            },
+        ),
+        new HtmlWebpackPlugin(
+            {
+                template: './src/feedback.html',
+                filename: 'feedback.html'
+            },
+        ),
+        new HtmlWebpackPlugin(
+            {
+                template: './src/admin.html',
+                filename: 'admin.html'
+            },
+        ),
         new MiniCssExtractPlugin({
             filename: 'css/style.css'
         }),
