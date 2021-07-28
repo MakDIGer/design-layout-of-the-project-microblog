@@ -181,6 +181,50 @@ nav.navbar .container .navbar-nav .nav-item .nav-link {
   font-size: 0.8571428571rem;
 }
 
+.page-link {
+  color: #999999;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.8571428571rem;
+  font-weight: 300;
+}
+.page-link:hover {
+  color: #F9F9F9;
+  background-color: #77CC6D;
+  font-size: 0.8571428571rem;
+  font-weight: 300;
+}
+
+.page-item.active .page-link {
+  background-color: #77CC6D;
+  border-color: #999999;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.8571428571rem;
+  font-weight: 300;
+}
+
+.page-item {
+  font-size: 0.8571428571rem;
+  font-weight: 300;
+}
+
+.form-control::-moz-placeholder {
+  color: #9f9f9f;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.form-control:-ms-input-placeholder {
+  color: #9f9f9f;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.form-control::placeholder {
+  color: #9f9f9f;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
 @media (max-width: 991.98px) {
   nav.navbar .container .navbar-nav .nav-item {
     border-right: none;

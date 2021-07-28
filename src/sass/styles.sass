@@ -146,6 +146,30 @@ nav.navbar
     font-weight: 300
     font-size: rem.convert(12px)
 
+.page-link
+  color: #999999
+  font-family: vars.$roboto
+  font-size: rem.convert(12px)
+  font-weight: 300
+  &:hover
+    color: #F9F9F9
+    background-color: #77CC6D
+    font-size: rem.convert(12px)
+    font-weight: 300
+.page-item.active .page-link
+  background-color: #77CC6D
+  border-color: #999999
+  font-family: vars.$roboto
+  font-size: rem.convert(12px)
+  font-weight: 300
+.page-item
+  font-size: rem.convert(12px)
+  font-weight: 300
+.form-control::placeholder
+  color: #9f9f9f
+  font-family: vars.$roboto
+  font-weight: 300
+
 
 // X-Small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px)
