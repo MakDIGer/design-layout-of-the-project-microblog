@@ -74,6 +74,12 @@ module.exports = {
                 filename: 'admin.html'
             },
         ),
+        new HtmlWebpackPlugin(
+            {
+                template: './src/login.html',
+                filename: 'login.html'
+            },
+        ),
         new MiniCssExtractPlugin({
             filename: 'css/style.css'
         }),
